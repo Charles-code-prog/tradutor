@@ -1,0 +1,23 @@
+# Executáveis e artefatos de build (gerados com PyInstaller)
+*.exe
+build/
+dist/
+*.spec
+__pycache__/
+
+# Livros e pastas de trabalho
+*.epub
+*.txt
+!requirements.txt
+alvo/
+base de tradução/
+resultado/
+_extract/
+
+# Progresso de traduções em andamento
+*.progresso.json
+*.progresso.jsonl
+*.tmp
+
+# Configurações locais
+.claude/
